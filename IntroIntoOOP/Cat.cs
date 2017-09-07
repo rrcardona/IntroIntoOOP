@@ -8,7 +8,7 @@ namespace IntroIntoOOP
 {
     class Cat
     {
-        //behaviors
+        
         //fields that will be used in the class
         //private means only people that have access is the class itself meaning cats only
         private string name;

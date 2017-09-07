@@ -34,7 +34,17 @@ namespace IntroIntoOOP
             cat1.Talk();
             cat1.FurColor = "Red";
             Console.WriteLine(cat1.FurColor);
-
+            Dog coco = new Dog();
+            coco.Run();
+            coco.Cuddle("Sam");
+            SuperHero goodGuy = new SuperHero("Super Good Guy");
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.NextLevel();
         }
     }
 }
